@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS基础知识</title>
+</head>
+<body>
+    <script>
+        alert("这是来自js脚本的❤");
+        let age = 13;
+        console.log(age);
+        let name ="小元";
+        console.log(name);
+        console.log(typeof name,name,typeof age,age);
+        let status =false;
+        console.log(status,typeof status);
+        console,log(age,typeof age,String(age),typeof String(age));
+        age=age + 2;
+        console.log(age);
+        console.log(name + "今年" + age + "岁" );
+        console.log(`${name}今年${age}岁`);
+        console.log(2 == "2")
+        console.log(2 === "2")
+        let today = "星期四"
+        if(today == "星期四"){
+            console.log("听说星期天补星期五的课");
+        } else {
+            console.log("只要是课，都不用补！");
+        }
+        name = "小小元";
+        if(name == "小元"){
+            console.log("温文尔雅");
+        } else if(name =="小黄"){
+            console.log("吃出个人样来");
+        } else {
+            console.log("帅！");
+        }
+        for(let index = 0; index < 10; index++){
+            console.log(index);
+        }
+        let index = 9;
+        while (index < 15) {
+            index++;
+            console.log(index);
+        }
+    </script>
+    
+</body>
+</html>
